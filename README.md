@@ -5,7 +5,7 @@ This script can seperate reads by multi-index or multi-barcode at same time, so 
 ## Requirements
 To run this script, you just need a raw reads file and indexs or barcode. Although this script can seperate reads from gziped file, but unziped file will be much more faster than gziped file.
 
-[Notes:] The index sequences should be same with the sequence in p7 primer.
+### Notes: The index sequences should be same with the sequence in p7 primer. 
 
 ## Usage
 
