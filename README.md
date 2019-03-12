@@ -1,9 +1,9 @@
 # fastq_filt
 This python script is used for seperating fastq reads according index or barcode from raw reads. The raw reads can be unziped or gziped file.
-This script can seperate beads by multi-index or multi-barcode at same time, so it saves time compare with other scripts.
+This script can seperate reads by multi-index or multi-barcode at same time, so it saves time compare with other scripts.
 
 ## Requirements
-To run this script, you just need a raw reads file and indexs or barcode.
+To run this script, you just need a raw reads file and indexs or barcode. Although this script can seperate reads from gziped file, but unziped file will be much more faster than gziped file.
 
 ## Usage
 
