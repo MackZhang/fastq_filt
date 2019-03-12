@@ -12,6 +12,7 @@ Usage: fastq_filt.py [options]
 
 Options:
   -h, --help            show this help message and exit
+<<<<<<< HEAD
   -f, --input=INPUT_FILE
                         File for processing
   -o, --output=OUTPUT_FILE
@@ -23,6 +24,19 @@ Options:
   -l, --left=LEFT_CUT
                         sequence for cut in left sides
   -r, --right=RIGHT_CUT
+=======
+  -f, --input		INPUT_FILE
+                        File for processing
+  -o, --output		OUTPUT_FILE
+                        File for output
+  --Barcode             using barcode for selection
+  --Index               using index for selection
+  -s, --barcodeindex	BARCODE_OR_INDEX_SEQUENCE
+                        fastq barcode or index sequence
+  -l, --left		LEFT_CUT
+                        sequence for cut in left sides
+  -r, --right		RIGHT_CUT
+>>>>>>> fastq filt
                         sequence for cut in right sides
 Example: python fastq_filt.py --Index -f Raw.fq.gz -s TAATAC,TGTGTC -o index-1.fq,index-2.fq -l 10 -r 40
 Example: python fastq_filt.py --Barcode -f Raw.fq -s TAATACCCATCG,TGTGTCCAG -o barcode-1.fq,barcode-2.fq -l 10 -r 40
